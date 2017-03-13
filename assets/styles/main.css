@@ -198,23 +198,50 @@ _____________________________________________________
 
 
 /*CUSTOMIZATION START*/
-@media only screen and (min-width: 1261px) {
+
+.adr-heading{
+	color: #262729 !important;
+	font-weight: bold;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	color: black!important;
+}
+
+
+@media only screen and (min-width: 301px) {
     .hero-lead-two{
 		text-align: left;
-		padding-left: 70px !important;
-		max-width: 1000px;
-		font-size:3.5em !important;
+		padding-left: 45px !important;
+		max-width: 300px;
+		font-size:1.5em !important;
 		letter-spacing: 8px;
-		color: #4D4E4E !important;
+		color: #262729 !important;
+		letter-spacing: 5px !important;
 	}
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (min-width: 501px) {
     .hero-lead-two{
 		text-align: left;
-		padding-left: 20px !important;
-		padding-right: 20px !important;
-		color: #4D4E4E !important;
+		padding-left: 45px !important;
+		max-width: 1100px;
+		font-size:2.5em !important;
+		letter-spacing: 8px;
+		color: #262729 !important;
+		letter-spacing: 5px !important;
+	}
+}
+@media only screen and (min-width: 1261px) {
+    .hero-lead-two{
+		text-align: left;
+		padding-left: 70px !important;
+		max-width: 1100px;
+		font-size:2.5em !important;
+		letter-spacing: 8px;
+		color: #262729 !important;
+		letter-spacing: 5px !important;
 	}
 }
 
@@ -231,11 +258,19 @@ _____________________________________________________
 @media only screen and (max-width: 1260px) {
     .hero-secondary-two{
 		text-align: left;
-		padding-left: 20px !important;
+		padding-left: 45px !important;
 		color: #4D4E4E !important;
 		font-size: 11px;
 		letter-spacing: 4px !important;
 	}
+}
+
+.title-two{
+/*	float: left;*/
+	display: inline-block; 
+	font-weight: bold;
+	border-bottom: 1px solid #00C6CA; 
+	padding-bottom: 6px;
 }
 
 
@@ -1769,6 +1804,7 @@ input[class="btn-ghost-light"]:hover {
 	3.0 Forms
 -------------------------------------------------- */
 .form-control {
+	background-color: #f4f4f4 !important;
   height: 40px;
   padding-left: 20px;
   border: 0px solid #ddd;
@@ -2122,7 +2158,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-plax-lg-light {
-  /*background: url(http://placehold.it/2440x1280);*/
+  background: url(../images/multiple-projects.jpg);
   background-size: cover;
 }
 
@@ -2140,7 +2176,7 @@ fieldset[disabled] .form-control:hover {
 	7.0 Footers
 -------------------------------------------------- */
 .copyright {
-  background: #00C6CA;
+  background: #262729;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -2184,7 +2220,7 @@ fieldset[disabled] .form-control:hover {
   display: inline-block;
   padding-right: 35px;
   margin-right: 35px;
-  border-right: 1px solid #777;
+  border-right: 1px solid #00C6CA;
 }
 
 .footer-social-links ul li:last-child {
@@ -2419,7 +2455,7 @@ fieldset[disabled] .form-control:hover {
 
 .footer-contact .contact-info .footer-map {
   height: 790px;
-  background: #ccc;
+  background: white;
 }
 
 .footer-contact .contact-info .show-info-link {
@@ -2472,7 +2508,7 @@ fieldset[disabled] .form-control:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #F7F7F7;
+  background: white;
   -webkit-transition: opacity 0.5s, visibility 0.6s;
           transition: opacity 0.5s, visibility 0.6s;
 }
@@ -2489,7 +2525,7 @@ fieldset[disabled] .form-control:hover {
   display: block;
   margin-bottom: 30px;
   padding: 7px 0 7px 20px;
-  border-left: 1px solid #777;
+  border-left: 1px solid #00C6CA;
 }
 
 .footer-contact .contact-info address ul li .adr-heading {
@@ -2531,8 +2567,8 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-contact .contact-form {
-  padding-left: 100px;
-  padding-right: 12%;
+  /*padding-left: 100px;
+  padding-right: 12%;*/
 }
 
 .footer-contact .contact-form header {
@@ -3304,7 +3340,7 @@ fieldset[disabled] .form-control:hover {
   position: absolute;
   top: 7px;
   left: 0;
-  color: rgba(204, 204, 204, 0.4);
+  color: rgba(0, 198, 202, 0.2);
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 165px;
@@ -5106,7 +5142,7 @@ fieldset[disabled] .form-control:hover {
 
 /* ---- 15.1 Full Width - Columns ---- */
 .portfolio-columns-fw, .portfolio-columns-boxed {
-  margin-top: 160px;
+  /*margin-top: 160px;*/
 }
 
 .portfolio-columns-fw .portfolio-item, .portfolio-columns-boxed .portfolio-item {
